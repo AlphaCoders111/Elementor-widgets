@@ -1,0 +1,42 @@
+.cr-share-wrapper {
+    position: relative;
+    display: inline-block;}
+.cr-share-trigger {
+    cursor: pointer;
+    display: inline-block;}
+.cr-share-icon {
+    visibility: hidden;
+    /* height: 0; */
+    display: none;
+}
+.cr-shared {
+        visibility: visible;
+        /* height: auto; */
+        display: block;
+}
+.cr-share-display.cr-left {
+    position: absolute;
+    top: 0;
+    display: flex;
+}
+.cr-share-display.cr-right {
+    position: absolute;
+    top: 0;
+    display: flex;
+}
+.cr-share-display.cr-top {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+}
+.cr-share-display.cr-bottom {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+}
+.cr-share-icon a {
+    display: inline-block;
+    text-align: center;
+}
